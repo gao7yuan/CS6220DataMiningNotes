@@ -14,10 +14,9 @@
 ## Evaluation
 - confusion matrix
 |                   | Predicted Class   |
-|                   |    +    |    -    |
-| ----------------- |:-------:| -------:|
-|               | + | f++(TP) | f+-(FN) |
-| Actual Class  | - | f-+(FP) | f--(TN) |
+| ----------------- | ------- | ------- |
+|                   | f++(TP) | f+-(FN) |
+| Actual Class      | f-+(FP) | f--(TN) |
 - accuracy
   - correct predictions
   - accuracy = (TP + TN) / (TP + TN + FP + FN)
